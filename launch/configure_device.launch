@@ -1,0 +1,8 @@
+<launch>
+  <arg name="file" default="config/rtls_tracker.yaml"/>
+
+  <node pkg="positioning_systems_ros" type="rtls_device_config_node" name="rtls_device_config_node" output="screen">
+    <rosparam command="load" file="$(find positioning_systems_ros)/$(arg file)" />
+    <param name="portname" value="/dev/ttyUSB0" />
+  </node>
+</launch>

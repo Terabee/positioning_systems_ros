@@ -1,0 +1,14 @@
+device_type: "Anchor"
+is_initiator: False
+priority: 1
+label: 0x0000
+network_id: 0x0000
+update_time_ms: 100
+is_auto_anchor_positioning: True
+anchor_height: 0
+is_tracker_stream_mode: False
+tracker_message_mode: "Long"
+is_led_enabled: True
+x: 0
+y: 0
+z: 0

@@ -1,0 +1,8 @@
+<launch>
+  <node pkg="positioning_systems_ros" type="rtls_tracker_node" name="rtls_tracker_node" output="screen">
+    <param name="portname" value="/dev/ttyUSB0"/>
+    <param name="publish_tf" value="true"/>
+    <param name="ref_frame" value="map"/>
+  </node>
+</launch>
+
